@@ -1,0 +1,22 @@
+GET http://localhost:3001/api/Products
+###
+POST http://localhost:3001/api/Products
+Content-Type: "application/json"
+
+{
+    "title": "Producto 4",
+    "description": "Este es el producto 0",
+    "price": 500
+}
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: "application/json"
+
+{
+    "email": "lautarosantillann@icloud.com",
+    "name": "Lautaro",
+    "surname": "Santillán",
+    "password": "Poli8796"
+}

@@ -1,0 +1,31 @@
+GET http://localhost:3001/api/cats
+###
+POST http://localhost:3001/api/cats
+Content-type: "application/json"
+
+{   
+    "title": "Lomos",
+    "emoji": "🥙"
+}
+
+#POSTED DATA 🌯 🥗 🥦 🍨
+# {title: 'Wraps',      image: '🌯'};
+# {title: 'Ensaladas',  image: '🥗'};
+# {title: 'Veggie',     image: '🥦'};
+# {title: 'Postres',    image: '🍨'};
+# {title: 'Papas',      image: '🍟'};
+# {title: 'Rabas',      image: '🍤'};
+# {title: 'Tapeos',     image: '🍽️'};
+# {title: 'Tablas',     image: '🍱'};
+# {title: 'Cervezas',   image: '🍻'};
+# {title: 'Cocktails',  image: '🍹'};
+# {title: 'Pizzas',     image: '🍕'};
+# {title: 'Choris',     image: '🌭'};
+# {title: 'Burguers',   image: '🍔'};
+# {title: 'Lomos',      image: '🥙'};
+
+###
+DELETE http://localhost:3001/api/cats/:id
+
+###
+PUT http://localhost:3001/api/cats/:id
